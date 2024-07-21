@@ -4,7 +4,7 @@
     border:border-box;
 }
 
-.navbar{
+#navbar{
     height:60px;
     background-color: #0F1111;
     color:white;
@@ -47,6 +47,7 @@ justify-content: space-evenly;
 .address-icon{
     display:flex;
     align-items: center;
+    padding-left:15px;
 }
 
 /*third box styling*/
@@ -111,10 +112,11 @@ color:#0f1111;
 }
 .location-select{
     height:20px;
-    width:45px;
+    width:50px;
     font-size: 14px;
-    background-color:#0F1111;
-    COLOR:WHITE;
+    background-color:#17d7d7;
+    color:white;
+    margin-left: 4px;
     border:none;
     display:flex;
     justify-content: flex-end;
@@ -272,7 +274,9 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+    text-decoration: none;
 }
+
 
 .foot-panel2{
     background-color: #222f3d;
@@ -314,7 +318,7 @@ ul a{
         background-size: cover;
     }
     .state-flag{
-        border:3px solid white;
+        /* border:3px solid white; */
         width:80px;
         height:30px;
         display:flex;
@@ -322,7 +326,7 @@ ul a{
         justify-content: space-evenly;
     }
     .lang-select{
-        border:3px solid white;
+        /* border:3px solid white; */
         width:90px;
         height:30px;
         display:flex;
