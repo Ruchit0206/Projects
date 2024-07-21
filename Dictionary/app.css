@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background: rgb(0, 0, 0); */
+}
+
+
+.tittle{
+    text-align: center;
+    /* background-color: burlywood; */
+    font-size: 35px;
+    width:73%;
+    margin-left:200px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:73%;
+    margin-left:202px;
+    /* background-color: rgb(6, 100, 100); */
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+    margin-bottom:20px;
+    background-image: url(https://th.bing.com/th/id/R.a1448a166c2a5b5788998c80c3887a1c?rik=qaD0BCr%2fjfqLEA&riu=http%3a%2f%2funblast.com%2fwp-content%2fuploads%2f2020%2f04%2fSeamless-Wood-Texture-5.jpg&ehk=lwJ0EeEJZTSl4FFaXEpOCw1ui4n2lNRvJe%2f6R9xOV2c%3d&risl=&pid=ImgRaw&r=0);
+    border-radius:10px;
+    }
+
+
+nav #img{
+    width:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background:red; */
+    z-index: 100;
+    /* position:fixed; */
+
+}
+
+nav div img{
+    height:35px ;
+    border-radius: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#navelements {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+     width:40%;
+     margin-left:400px;
+   
+
+     
+}
+#navelements a{
+    text-decoration: none;
+    color:rgb(0, 255, 157);
+}
+.container{
+    width: 70%;
+    height:550px;
+    padding: 22px;
+  background-image: url(https://wallpapers.com/images/file/notebook-background-5000-x-3500-reymgnpt8j9skl9w.jpg);
+  background-size: cover;
+    border-radius: 40px;
+    margin: auto;
+}
+.searchBar{
+    display: flex;
+    gap: 4px;
+}
+.container input{
+    width: 42%;
+    padding: 12px;
+    margin-left:102px;
+    height: 15px;
+    border: 2px solid rgb(12,225,48);
+    outline: none;
+    color:white;
+    font-size: 18px;
+    border-radius: 40px;
+}
+
+.container input:focus{
+    border:6px solid rgb(15, 222, 184);
+    
+    color:black;
+}
+
+.searchBar button{
+    width: 7%;
+    background-color: rgb(12, 225, 48);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    outline:none;
+}
+
+.searchBar button:focus{
+    font-size: 20px;
+
+}
+.text{
+    margin: 22px 38px ;
+    
+    color:rgb(170, 10, 10);
+   width:42%;
+    padding-left:100px;
+}
+
+.Searchword span{
+    font-size: 50px;
+}
+
+
+.text h2,
+.text h3 {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:600px){
+    .container{
+        width: 80%;
+    }
+}
