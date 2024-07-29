@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background:#37517e;
+}
+
+nav{
+   
+    font-size: larger;
+    margin-top:30px;
+    height:85.5px;
+    width:100%;
+    /* background:pink; */
+    position:fixed;
+    top:0px;
+    /* padding-left: 50px; */
+    z-index: 1000;
+    /* right:0px; */
+}
+nav div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-nav-div p{
+    height: 60px;
+    background:#37517e;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 800;
+    padding-right:60px;
+    /* border:30px solid #37517e; */
+
+}
+
+
+.anchor-tag-div{
+    margin-top:10px;
+    margin-left:150px;
+    /* display: flex; */
+}
+.anchor-tag-div a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+    padding:10px;
+   
+}
+.anchor-tag-div select{
+    height:30px;
+    width:auto;
+    outline:none;
+    border:none;
+    background:#37517e;
+    color:white;
+    font-size: large;
+}
+.anchor-tag-div select option{
+    height:30px;
+    width:auto;
+   
+   
+}
+.nav-btn{
+    background:#47B2E4;
+    text-decoration: none;
+    border-radius: 30px;
+    width:100px;
+    height:50px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+
+    
+    
+}
+
+
+/* main homepage */
+
+.main-homepage-div{
+    height: 592px;
+    /* background:green; */
+    margin-top:150px;
+    display: flex;
+}
+
+.main-homepage-1{
+    
+    /* background-color: red; */
+    /* height: 500px; */
+    padding-top:80px;
+    
+    padding-left:70px;
+}
+
+
+.homepage-span1{
+    display:block;
+    color:white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top:70px;
+}
+
+.homepage-span2{
+    color:white;
+    font-size: 28px;
+    margin-top: 10px;
+    
+}
+
+#homepage-btn-video{
+    padding-top:40px;
+}
+
+.main-homepage-btn{
+    text-decoration: none;
+    
+    height: 30px;
+    font-size: 20px;
+    background:#47B2E4;
+    color:white;
+    border:0px solid #47B2E4;
+    border-radius: 30px;
+    width:22%;
+    height: 40px;
+}
+
+#homepage-span3{
+    font-size: 20px;
+    color:white;
+    margin-left:30px;
+    font-size: larger;
+
+}
+#homepage-span3 i{
+    padding-right:10px;
+    font-size: larger;
+
+}
+
+
+
+.main-homepage-2{
+    width:40%;
+    
+    padding-top:80px;
+    padding-right: 30px;
+}
+.main-homepage-2 img{
+height: 500px;
+width:100%;
+}
